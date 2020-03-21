@@ -12,13 +12,22 @@ body {
   }
 }
 
+@media only screen and (max-width: 600px ) {
+  .title {
+    width: 100%;
+    h1 {
+      font-size: 18vw;
+    }
+  }
+}
+
 // Player's input //
 
 .input-container {
   display: flex;
   flex-flow: column;
   flex-basis: 40%;
-  min-width: 400px;
+  min-width: 300px;
   margin: 0 auto;
   margin-top: 50px;
   transition: opacity 0.5s ease, margin 1s ease, flex-basis 1s ease, max-width 1s ease;
